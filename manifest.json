@@ -1,0 +1,12 @@
+{
+	"name": "hide youtube thumbnails",
+	"manifest_version": 3,
+	"version": "1.0",
+	"description": "The extension for hide youtube thumbnails",
+	"content_scripts": [{
+		"matches": ["https://www.youtube.com/*"],
+		"css": [
+			"hide-thumbnails.css"
+		]
+	}]
+}
